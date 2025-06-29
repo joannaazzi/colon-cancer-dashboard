@@ -27,7 +27,7 @@ def login():
                     st.error("Incorrect password")
 
         # Center layout
-        st.markdown("<h1 style='text-align:center; color:#333;'>Colon & Rectum Cancer Analytics Dashboard</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align:center; color:#333;'>Colon & Rectal Cancer Analytics Dashboard</h1>", unsafe_allow_html=True)
         st.markdown("<h3 style='text-align:center; color:#555;'>Presented by Joanna El Kazzi</h3>", unsafe_allow_html=True)
 
         # Show image in center (update path if needed)
@@ -41,7 +41,7 @@ login()
 
 # Page config
 # Page config
-st.set_page_config(page_title="Colon & Rectum Cancer Analytics Dashboard", layout="wide")
+st.set_page_config(page_title="Colon & Rectal Cancer Analytics Dashboard", layout="wide")
 
 st.markdown("""
 <style>
@@ -62,7 +62,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align:center; margin-top: 2rem;'>MSBA382 Streamlit Project</h4>", unsafe_allow_html=True)
-st.markdown('<h1 class="main-header">Colon & Rectum Cancer Global Analytics Dashboard</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">Colon & Rectal Cancer Global Analytics Dashboard</h1>', unsafe_allow_html=True)
 
 
 uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
